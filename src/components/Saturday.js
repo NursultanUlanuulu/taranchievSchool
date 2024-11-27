@@ -9,6 +9,13 @@ import muz5 from "../music/muz5.mp3";
 import muz6 from "../music/muz6.mp3";
 import muz7 from "../music/muz7.mp3";
 import muz8 from "../music/muz8.mp3";
+import muz9 from "../music/muz9.mp3";
+import muz10 from "../music/muz10.mp3";
+import muz11 from "../music/muz11.mp3";
+import muz12 from "../music/muz12.mp3";
+import muz13 from "../music/muz13.mp3";
+import muz14 from "../music/muz14.mp3";
+import muz15 from "../music/muz15.mp3";
 
 const daysOfWeek = [
   "Sunday",
@@ -139,6 +146,13 @@ function Saturday({ disableAudioDays, setDisableAudioDays }) {
             <option value={muz6}>Обон 6</option>
             <option value={muz7}>Обон 7</option>
             <option value={muz8}>Обон 8</option>
+            <option value={muz9}>Обон 9</option>
+            <option value={muz10}>Обон 10</option>
+            <option value={muz11}>Обон 11</option>
+            <option value={muz12}>Обон 12</option>
+            <option value={muz13}>Обон 13</option>
+            <option value={muz14}>Обон 14</option>
+            <option value={muz15}>Обон 15</option>
           </select>
           <div className="ParentValue">
             <div className="defaultValue">
